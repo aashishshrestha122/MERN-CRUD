@@ -20,8 +20,11 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
               <h4>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <a href={repo.html_url} target="_blank" rel="noopener norefer">
 =======
+=======
+>>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
 =======
 >>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
                 <a
@@ -30,6 +33,9 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
                   rel="noopener norefer"
                 >
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
+=======
 >>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
 =======
 >>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
