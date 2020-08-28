@@ -15,7 +15,6 @@ import Profiles from "./components/profiles/Profiles";
 import Profile from "./components/profile/Profile";
 
 import Posts from "./components/posts/Posts";
-import Profile from "./components/profile/Profile";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { loadUser } from "./actions/auth";
