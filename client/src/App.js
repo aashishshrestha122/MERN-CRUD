@@ -12,16 +12,7 @@ import AddExperience from "./components/profile-form/AddExperience";
 import AddEducation from "./components/profile-form/AddEducation";
 import Profiles from "./components/profiles/Profiles";
 import Profile from "./components/profile/Profile";
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 import Posts from "./components/posts/Posts";
-=======
->>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
-=======
->>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
-=======
->>>>>>> fb91f2ec6a61a8fa5b8b17a9dd21091c9eee7e4d
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { loadUser } from "./actions/auth";
