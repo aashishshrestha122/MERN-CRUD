@@ -11,10 +11,10 @@ import EditProfile from "./components/profile-form/EditProfile";
 import AddExperience from "./components/profile-form/AddExperience";
 import AddEducation from "./components/profile-form/AddEducation";
 import Profiles from "./components/profiles/Profiles";
-
 import Profile from "./components/profile/Profile";
 import Post from "./components/post/Post";
 import Posts from "./components/posts/Posts";
+import NotFound from "./components/layout/NotFound";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import { loadUser } from "./actions/auth";
@@ -31,7 +31,7 @@ if (localStorage.token) {
 const App = () => {
   useEffect(() => {
     store.dispatch(loadUser());
-  }, []);
+  }, [loadUser]);
 
   return (
     <Provider store={store}>
@@ -70,6 +70,7 @@ const App = () => {
               />
               <PrivateRoute exact path="/posts" component={Posts} />
               <PrivateRoute exact path="/posts/:id" component={Post} />
+              <Route component={NotFound} />
             </Switch>
           </section>
         </Fragment>
